@@ -22,7 +22,7 @@ pipeline {
      stage('Run Application') {  
             steps { 
                 sh 'java –jar target/hellomaven-0.0.1-SNAPSHOT.jar'  
-            } 
-      } 
+            }
+     } 
     } 
 }
