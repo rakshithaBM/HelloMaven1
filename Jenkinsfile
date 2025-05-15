@@ -6,7 +6,7 @@ pipeline {
     stages { 
         stage('Checkout') {  
             steps { 
-                git branch: 'master', url: 'https://github.com/mtechkiran/SimpleCalci.git'  
+                git branch: 'master', url: 'https://github.com/rakshithaBM/HelloMaven1.git'  
             } 
     } 
      stage('Build') {  
